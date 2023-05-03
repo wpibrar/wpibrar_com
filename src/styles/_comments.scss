@@ -1,0 +1,81 @@
+
+div.comments-wrapper > ol > li.comment{
+	border: 1px solid #cfcfcf;
+    box-shadow: 0px 0px 11px 5px #f2f3f3;
+    transition: all 0.25s;
+    padding: 15px;
+}
+
+div.comments-wrapper > ol > li.comment:hover{
+    box-shadow: none;
+}
+
+div.comments-wrapper ol li.comment{
+	list-style-type: none;
+	margin-bottom: 15px;
+}
+
+div.comments-wrapper ol li.comment .comment-body{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	position: relative;
+	justify-content: space-between;
+}
+
+div.comments-wrapper ol li.comment .comment-body > .comment-meta > a:first-child{
+	display: none;
+}
+
+div.comments-wrapper ol li.comment .comment-body > p{
+	flex: 0 0 100%;
+	padding-top: 15px;
+}
+
+div.comments-wrapper div.reply{
+	margin-bottom: 15px;
+}
+
+div.comments-wrapper ol li.comment .comment-body .comment-author.vcard{
+	display: flex;
+	align-items: center;
+}
+
+div.comments-wrapper ol li.comment .comment-body .comment-author.vcard img{
+	border-radius: 50px;
+	margin-right: 15px;
+}
+
+div.comments-wrapper ol li.comment .comment-body .comment-author.vcard > *{
+	margin-right: 5px;
+}
+
+div.comments-wrapper ol li.comment li.comment{
+	padding-left: 10px;
+	border-left: 2px solid red;
+}
+
+#commentform{
+	display: flex;
+	flex-wrap: wrap;
+	margin-left: -15px;
+	margin-right: -15px;
+}
+
+#commentform > p{
+	width: 100%;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+@media( min-width: 992px){
+
+	#commentform > p.comment-form-author,
+	#commentform > p.comment-form-email,
+	#commentform > p.comment-form-url{
+		flex: 0 0 33.33%;
+	}
+
+}
+
+

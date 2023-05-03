@@ -1,0 +1,18 @@
+.wpi-sidebar-widget-container ul.cats li{
+	list-style-type: none;
+}
+
+.wpi-sidebar-widget-container ul.cats li a{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	text-decoration: none !important;
+	padding: 3px 0px;
+	transition: all 0.25s;
+}
+
+.wpi-sidebar-widget-container ul.cats li a:hover{
+	background-color: #cfcfcf;
+	padding-left: 10px;
+	padding-right: 10px;
+}

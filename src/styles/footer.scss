@@ -1,3 +1,30 @@
 footer{
-	background-color: #fff;
+	background-color: #f2f3f3;
+}
+
+footer .main-footer{
+	padding-top: 25px;
+	padding-bottom: 25px;
+	border-bottom: 1px solid #cfcfcf;
+}
+
+footer .main-footer ul.footer-links li{
+	list-style-type: none;
+}
+
+footer .main-footer ul.footer-links li a{
+	color: #333;
+	text-decoration: none;
+	display: block;
+	padding: 5px 0px;
+	transition: all 0.25s;
+}
+
+footer .main-footer ul.footer-links li a:hover{
+	padding-left: 8px;
+}
+
+footer .lower-footer{
+	padding-top: 15px;
+	padding-bottom: 15px;
 }

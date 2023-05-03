@@ -1,4 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:wght@600&display=swap');
+
 *{
 	margin: 0;
 	padding: 0;
+	box-sizing: border-box;
+}
+
+
+.menu-wrapper{
+	text-align: right;	
+}
+
+.menu-wrapper ul.nav{
+	display: inline-block;
+}
+
+.menu-wrapper ul.nav li{
+	display: inline-block;
+	list-style-type: none;
+}
+
+.menu-wrapper ul.nav li > a{
+	display: inline-block;
+	text-decoration: none;
+	color: #333;
+	padding: 8px 20px;
 }
