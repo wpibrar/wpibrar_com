@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/wpibrar.com/wp-content/themes/wpibrar_com/
+    - export DEPLOYPATH=/home/wpmen/wpibrar.com/wp-content/themes/wpibrar_com/
     - /bin/cp * $DEPLOYPATH
