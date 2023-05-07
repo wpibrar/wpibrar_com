@@ -5,7 +5,7 @@
 
 get_header(); ?>
 
-<section class="py-5">
+<section class="py-5 title-area">
 	<div class="container">
 		<div class="title-section">
 			<h1><?php echo get_the_title(); ?></h1>
