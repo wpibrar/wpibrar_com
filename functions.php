@@ -1,5 +1,5 @@
 <?php
-
+// exit();
 add_theme_support( 'title-tag' );
 add_theme_support( 'post-thumbnails' );
 
@@ -141,7 +141,7 @@ add_action( 'wp_head', 'add_wp_head_things', 50 );
 function wpdocs_filter_wp_title4681231( $title ) {
 	global $post;
 
-	if ( 'services' === get_post_type( $post->ID ) ) {
+	if ( 'services' === get_post_type( $post->ID ) || 'page' === get_post_type( $post->ID ) ) {
 
 		$seo_title = get_post_meta( $post->ID, 'seo-title', true );
 

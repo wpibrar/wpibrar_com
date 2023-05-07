@@ -4034,7 +4034,8 @@
 }
 
 h1, h2, h3 {
-  font-family: "Alegreya", serif;
+  /*    font-family: 'Alegreya', serif;*/
+  font-family: "Montserrat", sans-serif;
 }
 
 .archive-item-title {
@@ -4058,7 +4059,11 @@ p {
   color: #26282b;
   margin-bottom: 17px;
   line-height: 24px;
-  font-family: "Open Sans", Arial, sans-serif;
+  /*    font-family: 'Open Sans', Arial, sans-serif;*/
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 27px;
 }
 
 a {
@@ -4122,6 +4127,36 @@ a:hover {
   background-color: #cfcfcf;
   padding-left: 10px;
   padding-right: 10px;
+}
+
+.sevice-box > div {
+  padding: 40px;
+  text-align: center;
+  border-radius: 22px;
+  transition: 0.3s cubic-bezier(0.5, 1, 0.89, 1);
+  border: 1px solid rgba(15, 14, 14, 0.1019607843);
+}
+
+.sevice-box h3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  line-height: 33px;
+  font-weight: 700;
+}
+
+.sevice-box > div:hover {
+  background-color: #5355df;
+  border-color: #5355df;
+}
+
+.sevice-box > div:hover * {
+  color: #fff;
+}
+
+.sevice-box > div .read-more-link {
+  padding-top: 15px;
+  margin-top: 15px;
+  border-top: 1px dashed rgba(15, 14, 14, 0.1019607843);
 }
 
 div.comments-wrapper > ol > li.comment {

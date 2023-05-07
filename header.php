@@ -21,11 +21,15 @@
 	
 	<style>
 /*		font-family: 'Montserrat', sans-serif;*/
+		/*Regular 400
+		SemiBold 600
+		ExtraBold 800
+		Black 900*/
 	</style>
 	
 </head>
 <body <?php body_class(); ?>>
-	
+
 <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5T267Z6"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
@@ -36,7 +40,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 		<div class="row align-items-center">
 			<div class="col-7 col-sm-3">
 				<a href="<?php echo get_home_url(); ?>">
-					<h1>WPIbrar</h1>
+					<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/wpibrar-logo.svg" width="175" height="32" alt="WP Ibrar" />
 				</a>
 			</div>
 			<div class="col d-none d-sm-block">

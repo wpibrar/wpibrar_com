@@ -6,13 +6,13 @@
 /*# sourceMappingURL=bootstrap-grid.min.css.map */
 
 h1, h2, h3{
-    font-family: 'Alegreya', serif;
+/*    font-family: 'Alegreya', serif;*/
+    font-family: 'Montserrat', sans-serif;
 }
 
 .archive-item-title{
     text-decoration: none !important;
 }
-
 
 .archive-item-title h2{
     font-size: 2.5em;
@@ -31,7 +31,11 @@ p{
 	color: #26282b;
     margin-bottom: 17px;
     line-height: 24px;
-    font-family: 'Open Sans', Arial, sans-serif;
+/*    font-family: 'Open Sans', Arial, sans-serif;*/
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 27px;
 }
 
 a{
