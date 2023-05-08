@@ -38,12 +38,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <header id="wpi-header">
 	<div class="container">
 		<div class="row align-items-center">
-			<div class="col-7 col-sm-3">
+			<div class="col-7 col-sm-3 py-3">
 				<a href="<?php echo get_home_url(); ?>">
 					<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/wpibrar-logo.svg" width="175" height="32" alt="WP Ibrar" />
 				</a>
 			</div>
-			<div class="col d-none d-sm-block">
+			<div class="col d-none d-sm-block py-3">
 				<div class="menu-wrapper">
 					<ul class="nav">
 						<li><a href="<?php echo get_home_url(); ?>">Home</a></li>
@@ -52,7 +52,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 					</ul>
 				</div>
 			</div>
-			<div class="col-5 col-sm-9 d-block d-sm-none">berger</div>
+			<div class="col-5 col-sm-9 d-block d-sm-none py-3">berger</div>
 		</div>
 	</div>
 </header>

@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* Colors */
 @import url("https://fonts.googleapis.com/css2?family=Alegreya:wght@600&display=swap");
 * {
@@ -4067,7 +4068,7 @@ p {
 }
 
 a {
-  color: #8A4FFF;
+  color: #5355df;
 }
 
 a:hover {
@@ -4090,7 +4091,7 @@ a:hover {
 
 .the-btn-primary {
   box-shadow: 0 10px 15px 0 rgba(241, 59, 59, 0.2);
-  background: #8A4FFF;
+  background: #5355df;
   color: #fff !important;
 }
 
@@ -4100,7 +4101,7 @@ a:hover {
 }
 
 .shadowed {
-  border: 1px solid #8A4FFF;
+  border: 1px solid #5355df;
   box-shadow: 0px 0px 11px 5px #f2f3f3;
   transition: all 0.25s;
 }
@@ -4108,6 +4109,10 @@ a:hover {
 .shadowed:hover {
   border: 1px solid #E154FA;
   box-shadow: none;
+}
+
+.text-center {
+  text-align: center;
 }
 
 .wpi-sidebar-widget-container ul.cats li {
@@ -4160,8 +4165,29 @@ a:hover {
 }
 
 section.title-area {
-  border-radius: 100%/0 0 50% 50%;
-  background-color: lightgray;
+  background: linear-gradient(0deg, rgba(83, 85, 223, 0.2) 0%, rgba(83, 85, 223, 0) 100%);
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+
+section.title-area h1 {
+  font-size: 60px;
+  font-weight: 700;
+}
+
+section.title-area ul.breadcrumbs li {
+  list-style-type: none;
+  float: left;
+  padding: 5px;
+  /*	margin-right: 25px;*/
+}
+
+section.title-area ul.breadcrumbs li:not(:last-child):after {
+  content: "➙";
+  display: inline-block;
+  margin: auto 5px auto 15px;
+  color: #000;
+  transform: translateY(2px);
 }
 
 div.comments-wrapper > ol > li.comment {

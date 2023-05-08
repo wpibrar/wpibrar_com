@@ -5,16 +5,16 @@
 
 get_header(); ?>
 
-<section class="py-5 title-area">
+<section class="title-area">
 	<div class="container">
 		<div class="title-section">
 			<h1><?php echo get_the_title(); ?></h1>
 			<div class="breadcrumbs-container">
-				<ul class="breadcrumbs">
+				<ul class="breadcrumbs d-inline-block mt-2">
 					<li><a href="<?php echo get_home_url(); ?>">Home</a></li>
 					<li><a href="<?php echo get_home_url(); ?>">Home</a></li>
 					<li><a href="<?php echo get_home_url(); ?>">Home</a></li>
-					<li><a href="<?php echo get_home_url(); ?>">Home</a></li>
+					<li>Home</li>
 				</ul>
 			</div>
 		</div>
