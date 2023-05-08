@@ -1,5 +1,5 @@
 <?php
-// exit(); 1
+// exit(); 2
 add_theme_support( 'title-tag' );
 add_theme_support( 'post-thumbnails' );
 
