@@ -14,3 +14,9 @@ if (!verify_signature($secret, $signature, $body)) {
 
 // Pull the changes from GitHub
 exec('git pull');
+
+function verify_signature($secret, $signature, $payload) {
+    list($algo, $hash) = explode('=', $signature, 2);
+    $payload_hash = hash_hmac($algo, $payload, $secret);
+    return hash_equals($hash, $payload_hash);
+}
