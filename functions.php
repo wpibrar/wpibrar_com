@@ -1,5 +1,5 @@
 <?php
-// exit(); 3
+// exit(); 4
 add_theme_support( 'title-tag' );
 add_theme_support( 'post-thumbnails' );
 
@@ -31,9 +31,6 @@ function circlecube_comment_form( $args ) {
 }
 
 add_filter( 'comment_form_defaults', 'circlecube_comment_form' );
-
-
-
 
 
 /**
