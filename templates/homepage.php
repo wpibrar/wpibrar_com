@@ -7,7 +7,7 @@ get_header(); ?>
 
 <section class="title-area">
 	<div class="container">
-		<div class="title-section">
+		<div class="title-section text-center">
 			<h1><?php echo get_the_title(); ?></h1>
 			<div class="breadcrumbs-container">
 				<ul class="breadcrumbs d-inline-block mt-2">

@@ -1,5 +1,5 @@
 <footer>
-	<div class="container main-footer">
+	<div class="container main-footer py-5">
 		<div class="row">
 			<div class="col-12 col-md-12 col-lg-6">
 				<h3 class="mb-3">About me</h3>

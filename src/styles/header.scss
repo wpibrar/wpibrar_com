@@ -4,8 +4,8 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	font-family: 'Montserrat', sans-serif;
 }
-
 
 .menu-wrapper{
 	text-align: right;	
@@ -25,4 +25,34 @@
 	text-decoration: none;
 	color: #333;
 	padding: 8px 20px;
+	font-weight: 600;
+	transition: all 0.25s;
+	position: relative;
+}
+
+.menu-wrapper ul.nav li > a:before{
+	content: "";
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    width: 8px;
+    height: 8px;
+    display: inline-block;
+	background-color: $primary-color;
+    transform: rotate(45deg) translateY(-6px);
+    opacity: 0;
+    transition: all 0.25s;
+}
+
+.menu-wrapper ul.nav li > a:hover:before{
+	left: 0;
+	opacity: 1;
+}
+
+.menu-wrapper ul.nav li > a:hover{
+	display: inline-block;
+	text-decoration: none;
+	color: $primary-color;
+	padding: 8px 20px;
+	font-weight: 600;
 }
