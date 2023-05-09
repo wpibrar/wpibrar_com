@@ -4068,16 +4068,15 @@
 h1, h2, h3 {
   /*    font-family: 'Alegreya', serif;*/
   font-family: "Montserrat", sans-serif;
+  font-weight: 600;
 }
 
-.archive-item-title {
-  text-decoration: none !important;
-}
-
-.archive-item-title h2 {
-  font-size: 2.5em;
-}
-
+/*.archive-item-title{
+    text-decoration: none !important;
+}*/
+/*.archive-item-title h2{
+    font-size: 2.5em;
+}*/
 p,
 pre,
 code,
@@ -4144,6 +4143,10 @@ a:hover {
 
 .text-center {
   text-align: center;
+}
+
+.section-heading {
+  font-size: 35px;
 }
 
 .wpi-sidebar-widget-container ul.cats li {
