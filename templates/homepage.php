@@ -21,6 +21,25 @@ get_header(); ?>
 	</div>
 </section>
 
+<section class="py-5 cream-bg">
+	<div class="container py-5">
+		<div class="row">
+			<div class="col-12 about-card">
+				<div class="row align-items-center">
+					<div class="col-12 col-md-6 text-center">
+						<?php echo wp_get_attachment_image( 66, 'large' ); ?>
+					</div>
+					<div class="col-12 col-md-6 ps-md-5">
+						<h2 class="mb-2 section-heading">My journey as a<br /> full-stack WordPress developer</h2>
+						<p>As a full-stack WordPress developer, I have had the opportunity to work with companies from the United States, the United Kingdom, Canada, and Australia. Throughout my career, I have worked on hundreds of projects, ranging from building websites from scratch to fixing bugs, updating plugins and themes, optimizing speed, and implementing custom functionalities.</p>
+						<p>Currently, I work as a full-time freelancer and offer a wide range of WordPress-related services. I am committed to delivering high-quality work on projects of any size.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
 <section class="py-5">	
 	<div class="container py-5">
 
@@ -107,18 +126,6 @@ get_header(); ?>
 				</div>
 			</div>
 
-			<div class="col-12 col-sm-6 col-md-4 sevice-box mb-4">
-				<div>
-					<h3 class="mb-3">Theme Development</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
-					<div class="read-more-link">
-						<a href="#.">Read More</a>
-					</div>
-				</div>
-			</div>
-
 			<div class="col-12 text-center pt-5">
 				<a href="#" class="the-btn the-btn-primary">View all services</a>
 			</div>
@@ -127,8 +134,34 @@ get_header(); ?>
 	</div>
 </section>
 
-<section>
+
+<section class="cream-bg py-5 recent-posts-section">
 	
+	<div class="container">
+		<div class="row">
+			<div class="col-12 col-sm-6 col-md-3">
+				<div class="recent-post white-bg br-11">
+					<h1>Post 1</h1>
+				</div>
+			</div>
+
+			<div class="col-12 col-sm-6 col-md-3">
+				<h1>post 2</h1>
+			</div>
+
+			<div class="col-12 col-sm-6 col-md-3">
+				<h1>post 3</h1>
+			</div>
+
+			<div class="col-12 col-sm-6 col-md-3">
+				<h1>post 3</h1>
+			</div>
+
+		</div>
+	</div>
+
+
 </section>
+
 
 <?php get_footer(); ?>
