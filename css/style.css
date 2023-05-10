@@ -4164,10 +4164,12 @@ img {
 
 .br-22 {
   border-radius: 22px;
+  overflow: hidden;
 }
 
 .br-11 {
   border-radius: 11px;
+  overflow: hidden;
 }
 
 .wpi-sidebar-widget-container ul.cats li {
@@ -4220,6 +4222,10 @@ img {
   border-top: 1px dashed rgba(15, 14, 14, 0.1019607843);
 }
 
+.sevice-box > div:hover .read-more-link {
+  border-color: #fff;
+}
+
 .sevice-box > div .read-more-link a:hover {
   text-decoration: none;
 }
@@ -4233,6 +4239,11 @@ img {
 
 .about-card img {
   border-radius: 22px;
+}
+
+/* recent posts */
+.recent-post {
+  height: 100%;
 }
 
 section.title-area {

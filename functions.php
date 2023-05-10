@@ -190,3 +190,12 @@ function prefix_defer_css_rel_preload( $html, $handle, $href, $media ) {
 	return $html;
 }
 add_filter( 'style_loader_tag', 'prefix_defer_css_rel_preload', 10, 4 );
+
+/**
+ * Registering ACF blocks for Guttenberg builder 
+ * 
+ */
+function register_acf_blocks() {
+    register_block_type( __DIR__ . '/acf-blocks/about-section' );
+}
+add_action( 'init', 'register_acf_blocks' );

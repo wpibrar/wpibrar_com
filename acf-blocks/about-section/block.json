@@ -1,0 +1,16 @@
+{
+    "name": "acf/about",
+    "title": "About Section",
+    "description": "A custom about block.",
+    "style": [ "file:./about.css" ],
+    "category": "formatting",
+    "icon": "admin-comments",
+    "keywords": ["about", "quote"],
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "about-section.php"
+    },
+    "align": "full",
+    "editorStyle": "file:./bs-grid.css",
+    "style": "file:./style.css"
+}

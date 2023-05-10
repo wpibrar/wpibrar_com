@@ -1,0 +1,9 @@
+.about-card{
+	border: 1px solid #0f0e0e1a;
+	border-radius: 22px;
+	padding: 40px;
+}
+
+.about-card img{
+	border-radius: 22px;
+}

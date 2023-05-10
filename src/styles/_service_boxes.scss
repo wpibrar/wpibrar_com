@@ -29,18 +29,21 @@
 	border-top: 1px dashed #0f0e0e1a;
 }
 
+.sevice-box > div:hover .read-more-link{
+	border-color: #fff;
+}
+
 .sevice-box > div .read-more-link a:hover{
 	text-decoration: none;
 }
 
 
-/* About Section */
-.about-card{
-	border: 1px solid #0f0e0e1a;
-	border-radius: 22px;
-	padding: 40px;
+/* Recent posts */
+.recent-post{
+	height: 100%;
 }
 
-.about-card img{
-	border-radius: 22px;
+/* Testimonials */
+{
+
 }
