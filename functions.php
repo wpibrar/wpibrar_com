@@ -197,5 +197,16 @@ add_filter( 'style_loader_tag', 'prefix_defer_css_rel_preload', 10, 4 );
  */
 function register_acf_blocks() {
     register_block_type( __DIR__ . '/acf-blocks/about-section' );
+    register_block_type( __DIR__ . '/acf-blocks/services-section' );
 }
 add_action( 'init', 'register_acf_blocks' );
+
+add_action( 'admin_head', function(){
+	?>
+	<style type="text/css">
+		html :where(.wp-block) {
+		    max-width: 1000px !important;
+		}
+	</style>
+	<?php
+} );

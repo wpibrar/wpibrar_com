@@ -1,10 +1,10 @@
 {
-    "name": "acf/about",
-    "title": "About Section",
-    "description": "A custom about block.",
+    "name": "acf/services",
+    "title": "Services section",
+    "description": "A custom services section block.",
     "category": "formatting",
     "icon": "admin-comments",
-    "keywords": ["about", "wpi"],
+    "keywords": ["services", "wpi"],
     "acf": {
         "mode": "preview",
         "renderTemplate": "view.php"
