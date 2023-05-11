@@ -12,7 +12,7 @@ $sidebar = 'left';
 
 <div class="container- content-wrapper my-5">
 	<div class="row-">
-		<div class="col-12- col-md-12-">
+		<div class="col-12-">
 			<?php
 			if( have_posts() ){
 				while( have_posts() ){
@@ -25,9 +25,6 @@ $sidebar = 'left';
 				}
 			}
 			?>
-		</div>
-		<div class="col-12 col-md-4 d-none">
-			<?php get_sidebar(); ?>
 		</div>
 	</div>
 </div>

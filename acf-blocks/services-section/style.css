@@ -4,6 +4,7 @@
     border-radius: 22px;
     transition: 0.3s cubic-bezier(0.5, 1, 0.89, 1);
 	border: 1px solid #0f0e0e1a;
+	height: 100%;
 }
 
 .sevice-box h3{
