@@ -31,9 +31,6 @@ $heading = get_field('heading');
 $text = get_field('text');
 
 $services_link = get_field('services_page_link');
-$services_link_url = $services_link['url'];
-$services_link_title = $services_link['title'];
-$services_link_target = $services_link['target'] ? $services_link['target'] : '_self';
 
 ?>
 
