@@ -10,9 +10,9 @@ $sidebar = 'left';
 
 ?>
 
-<div class="container content-wrapper my-5">
-	<div class="row">
-		<div class="col-12 col-md-12">
+<div class="container- content-wrapper my-5">
+	<div class="row-">
+		<div class="col-12- col-md-12-">
 			<?php
 			if( have_posts() ){
 				while( have_posts() ){
