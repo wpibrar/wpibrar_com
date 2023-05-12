@@ -198,6 +198,7 @@ add_filter( 'style_loader_tag', 'prefix_defer_css_rel_preload', 10, 4 );
 function register_acf_blocks() {
     register_block_type( __DIR__ . '/acf-blocks/about-section' );
     register_block_type( __DIR__ . '/acf-blocks/services-section' );
+    register_block_type( __DIR__ . '/acf-blocks/testimonials' );
 }
 add_action( 'init', 'register_acf_blocks' );
 
