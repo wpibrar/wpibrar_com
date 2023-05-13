@@ -11,5 +11,13 @@
     },
     "align": "full",
     "editorStyle": "file:../bs-grid.css",
-    "style": "file:./style.css"
+    "style": [
+        "slick-css",
+        "slick-theme-css",
+        "file:./style.css"
+    ],
+    "script": [
+        "slick-min-js",
+        "slick-init-js"
+    ]
 }

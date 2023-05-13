@@ -34,7 +34,7 @@ $services_link = get_field('services_page_link');
 
 ?>
 
-<section class="py-5">	
+<section <?php echo $anchor; ?> class="<?php echo esc_attr( $class_name ); ?>" style="<?php echo esc_attr( $style ); ?>">	
 	<div class="container py-5">
 
 		<div class="row justify-content-center py-4">

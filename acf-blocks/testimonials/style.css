@@ -1,0 +1,21 @@
+.testi-slider .slide{
+	border: 1px solid #0f0e0e1a;
+	padding: 40px;
+	border-radius: 22px;
+	overflow: hidden;
+}
+
+.testi-slider .slide .testi-text p{
+	font-size: 20px;
+	border-bottom: 1px dashed #0f0e0e1a;
+	padding: 25px;
+}
+
+.testi-slider .slide span{
+	font-size: 18px;
+}
+
+.testi-slider .slide .testi-author{
+	font-weight: 600;
+}
+

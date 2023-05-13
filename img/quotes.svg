@@ -1,0 +1,11 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 445" width="520" height="445">
+	<title>New Project</title>
+	<defs>
+		<image  width="1000" height="1000" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA+gAAAPoAQMAAAB3bUanAAAAAXNSR0IB2cksfwAAAANQTFRFAAAAp3o92gAAAAF0Uk5TAEDm2GYAAACRSURBVHic7cExAQAAAMKg9U9tCj+gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC+Buw/AAH4MZchAAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+		.s0 { fill: #5355df } 
+	</style>
+	<use id="Background" href="#img1" x="-249" y="-204"/>
+	<path id="❝" class="s0" aria-label="❝"  d="m239.4 209.1v214.5h-214.4v-214.5l96-186.9h75.6l-48 186.9zm259 0v214.5h-214.5v-214.5l96.1-186.9h75.6l-48 186.9z"/>
+</svg>
