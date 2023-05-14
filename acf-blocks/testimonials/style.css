@@ -19,3 +19,45 @@
 	font-weight: 600;
 }
 
+.slick-dots li{
+	width: auto !important;
+/*	height: auto;*/
+}
+
+.slick-dots li button:before{
+	content: "" !important;
+}
+
+.slick-dots li button{
+	background-color: #dedefa !important;
+	width: 10px !important;
+	height: 10px !important;
+}
+
+.slick-dots li.slick-active button{
+	background-color: #5355df !important;
+}
+
+.slick-dots{
+    bottom: -45px !important;
+}
+
+/*.slick-list{
+	overflow-y: visible;
+	overflow-x: hidden;
+
+}*/
+
+.testi-slider .slide{
+	position: relative;
+/*	overflow: visible;*/
+}
+
+.testi-slider .slide .quotes-img{
+	width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    opacity: 0.2;
+}

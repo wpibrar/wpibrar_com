@@ -48,6 +48,7 @@ $text = get_field('text');
                         <span class="testi-author d-block mb-1"><?php the_sub_field('author'); ?></span>
                         <span class="testi-country d-block"><em><?php the_sub_field('country'); ?></em></span>
                     </div>
+                    <img src="<?php echo get_stylesheet_directory_uri().'/img/quotes.svg'; ?>" class="quotes-img" />
                 </div>
                 <?php } ?>
             </div>
