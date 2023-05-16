@@ -60,7 +60,7 @@ $services_link = get_field('services_page_link');
 						<h3 class="mb-3"><?php the_sub_field('title'); ?></h3>
 						<p><?php the_sub_field('text'); ?></p>
 						<div class="read-more-link">
-							<a href="<?php echo $link_url; ?>"><?php echo $link['title']; ?></a>
+							<a href="<?php echo $link['url']; ?>"><?php echo $link['title']; ?></a>
 						</div>
 					</div>
 				</div>
